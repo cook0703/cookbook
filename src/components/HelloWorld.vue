@@ -1,0 +1,22 @@
+<template>
+  <div class=''>
+  	
+  </div>
+</template>
+
+<script>
+export default {
+  name: '',
+  data () {
+    return {
+     
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang='stylus' scoped>
+// 引用路径根据文件夹位置调整
+// @import '../../assets/common.styl'
+</style>
