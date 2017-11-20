@@ -11,5 +11,9 @@ export default{
 	},
 	getDetailId(state){
 		return state.detail_id
+	},
+	//评论
+	getCommentArr(state){
+		return state.commentArr
 	}
 }

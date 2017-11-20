@@ -13,4 +13,8 @@ export default{
  	setDetailId({commit,state},data){
  		commit('DETAILID',data)
  	},
+ 	//评论
+ 	setComment({commit,state},data){
+ 		commit('COMMENT',data)
+ 	}
 }

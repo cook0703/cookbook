@@ -5,6 +5,14 @@ import App from './App'
 import router from './router'
 import store from './store/index.js'
 Vue.config.productionTip = false
+
+//新增
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+require('swiper/dist/css/swiper.css')
+Vue.use(VueAwesomeSwiper)
+// //动画库
+// require('animate.css/animate.min.css')
+
 //跳转页面默认到顶端
 router.afterEach((to,from,next) => {
     window.scrollTo(0,0);
